@@ -5,12 +5,14 @@
 
 .stack {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
   }
   
   .stack-element {
-    flex: 50vw;
-    height: 50vw;
+    flex-grow: 50vh;
+    height: 100vh;
+    width: auto;
+
   }
 
   .one{
