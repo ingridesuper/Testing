@@ -8,7 +8,6 @@ body{
     flex-direction: column; 
     justify-content: space-between;
     font-family: Arial, Helvetica, sans-serif; 
-    height:100vh;  
 }
 
 ul{
@@ -28,7 +27,8 @@ a{
 
 .content{
     background-color: rgb(223, 207, 190);
-    flex-grow:1;
+    height:100vh;  
+
 }
 
 .header,
