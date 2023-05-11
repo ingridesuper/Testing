@@ -1,0 +1,26 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.stack {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .stack-element {
+    flex: 50vw;
+    height: 50vw;
+  }
+
+  .one{
+    background-color:aquamarine;
+  }
+
+  .two{
+    background-color: bisque;
+  }
+
+  .three{
+    background-color: aqua;
+  }
